@@ -1,0 +1,144 @@
+* { 
+	margin: 0px; 
+	padding: 0px; 
+}
+html {
+    overflow-y: scroll;
+}
+
+
+body{
+	background-image:url('img/bg.png'); 
+	background-repeat:repeat-y;	
+	background-color:black;
+	background-position: 50% 0%;
+	background-attachment:fixed;
+
+	color: black;
+}
+
+#content{
+	position: absolute;
+	width: 816px;
+	height: 100%;
+	left: 50%;
+	margin: 0 0 0 -408px;
+	text-align: center;
+	font-family: "Georgia";
+}
+#content img{
+    float: left; 
+    margin-right: 8px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#heading{
+	position: absolute;
+	top: 15px;
+	width: 708px;
+	font-size: 40px;
+	font-family: "Georgia";
+	text-align: right;
+	left: 50px;
+}
+
+#menu{
+	width: 708px;
+	position: absolute;
+	top: 64px;
+	font-size: 18px;
+	text-align: right;
+	left: 50px;
+}
+
+#menu a{
+	color: black;
+	margin: 0 0 0 30px;
+}
+
+
+#entries{
+	width: 708px;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	font-size: 14px;
+}
+
+#description{
+	width: 320px;
+	position: absolute;
+	top: 110px;
+	left: 30px;
+	font-size: 15px;
+	text-align: left;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+
+
+#description a, .fakelink{
+	font-weight: normal;
+}
+#description .fakelink:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#media{
+	position: absolute;
+	top: 110px;
+	left: 370px;
+	width: 420px;
+
+}
+#media img{
+	float: right;
+	margin: 0px;
+}
+
+
+.entry{
+	margin-top: 10px;
+	text-align: left;
+	overflow: auto;
+	padding: 8px;
+	border: solid black 1px;
+	position: relative;
+}
+
+
+
+
+.overskrift{
+	font-family: "Georgia";
+	line-height: 95%;
+	font-weight: none;
+	font-size: 21px;
+	color: black;
+	padding-bottom: 7px; 
+}
+.underskrift{
+	position: absolute;
+	text-align: right;
+	font-style: italic;
+	font-size: 13px;
+	bottom:5px;
+    right:5px;
+    
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
